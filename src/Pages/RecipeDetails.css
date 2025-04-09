@@ -1,0 +1,30 @@
+.recipe-details-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .recipe-detail-image {
+    width: 100%;
+    border-radius: 1rem;
+    margin: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+    color: #374151;
+  }
+  
+  ul, ol {
+    margin: 0.5rem 0 1.5rem 1.5rem;
+  }
+  

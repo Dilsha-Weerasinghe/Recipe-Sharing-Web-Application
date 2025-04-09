@@ -1,0 +1,43 @@
+.auth-background {
+    background-image: url('/src/Assets/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-container {
+    padding: 20px;
+  }
+  
+  .auth-title {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .auth-button {
+    background-color: #ff8c00 !important;
+    color: white !important;
+    padding: 10px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .auth-button:hover {
+    background-color: #e67e00 !important;
+    transform: translateY(-2px) !important;
+  }
+  
+  .auth-link {
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }

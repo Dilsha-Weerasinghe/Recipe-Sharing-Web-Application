@@ -1,0 +1,140 @@
+.recipes-container {
+  padding: 2rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.recipes-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 320px;
+  margin: auto;
+}
+
+.recipe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.recipe-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.recipe-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0.5rem 0;
+}
+
+.recipe-card p {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.recipe-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.recipe-actions .MuiIconButton-root {
+  padding: 5px;
+  color: #007bff;
+  transition: background-color 0.2s ease;
+}
+
+.recipe-actions .MuiIconButton-root:hover {
+  background-color: #e6f0ff;
+  border-radius: 8px;
+}
+
+.centered-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.9);
+}
+
+.login-box h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.login-box p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.login-box .btn {
+  background-color: #ff8c00;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box .btn:hover {
+  background-color: #e67e00;
+}
+
+.not-logged-in-bg {
+  background-image: url('https://media-hosting.imagekit.io/4644aab802734251/flat-lay-salad-with-chicken-sesame-seeds.jpg?Expires=1838753142&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ynH1BlqW07zdWdiPtzkfJcMN583VbkNctQ0Z-zZErMeHMluHbXtFodC3L1sy9i0UkEA-8VsBurGJRu7DKg4cACegZx80446NUMGQrnGT04l9i13RWWYCcYv7~pltjMNc3ms2va1ipRb2gQKxu5svle~lH8lG5HXq0WM5ZeRNNe9j--8Hj-VhpkuQ7dT5flw02V039B7imyG9rdf1P2pGVw~EWDl12g8FGMJUd6jGTWBjJb4DkBuVZnofUTc81niMmzLYIUkCNWVf~hLUSbxPS4umadZ7omzydU9L5kDDdPdwigvb2FtsQXEED73CHLvZFlJ-5REmK23kyg5K7d-agw__');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .recipe-image {
+    height: 120px;
+  }
+
+  .recipe-card h3 {
+    font-size: 1rem;
+  }
+
+  .recipe-card p {
+    font-size: 0.85rem;
+  }
+}
